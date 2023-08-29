@@ -11,13 +11,13 @@
       </template>
 
       <p>This is the body with a <UBadge>Badge</UBadge></p>
-      <p class="text-teal-500">
-        Hogefuga
+      <div class="flex items-center gap-1">
+        <p class="text-teal-500">Hogefuga</p>
         <UButton
           :ui="{ rounded: 'rounded-full', size: 'xl' }"
           icon="i-heroicons-pencil-square"
         />
-      </p>
+      </div>
     </UCard>
   </UContainer>
 </template>
